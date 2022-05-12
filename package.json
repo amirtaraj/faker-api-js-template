@@ -1,0 +1,23 @@
+{
+  "name": "faker-api-js-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirtaraj/faker-api-js-template.git"
+  },
+  "author": "amirtaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirtaraj/faker-api-js-template/issues"
+  },
+  "homepage": "https://github.com/amirtaraj/faker-api-js-template#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "faker": "^6.6.6"
+  }
+}
