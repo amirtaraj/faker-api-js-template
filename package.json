@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-test": "mocha test.js --timeout=60000"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   "homepage": "https://github.com/amirtaraj/faker-api-js-template#readme",
   "devDependencies": {
     "@faker-js/faker": "^6.3.1",
-    "faker": "^6.6.6"
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "faker": "^6.6.6",
+    "mocha": "^10.0.0"
   }
 }
